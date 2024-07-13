@@ -1,10 +1,28 @@
 # SSR去广告规则/GFWList规则/Clash规则碎片
 
-* 项目基于CC-BY-SA-4.0协议发布  [![CC-BY-SA-4.0](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/deed.zh)
+* 这个项目是本人 fork 于 [ACL4SSR](https://github.com/ACL4SSR/ACL4SSR) 项目，主要是提供本人的定制化分流规则，用于 clash 规则和 clash verge script 规则。
+* 原项目基于CC-BY-SA-4.0协议发布  [![CC-BY-SA-4.0](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/deed.zh)
 * 仅推荐未root的安卓手机使用。
 * Telegram频道订阅地址：**[https://t.me/ACL4SSR](https://t.me/ACL4SSR)**
 * [关于中国的互联网](https://github.com/ACL4SSR/ACL4SSR/wiki/关于中国的互联网)
   
+# 在 clash verge script 中使用
+
+ 项目 ClashVerge 目录下下有 clash verge script 脚本（ClashVerge/dist/ACL4SSR_Online_Full.js），该脚本规则使用的是 ACL4SSR_Online_Full并加入了一些定制的规则内容。
+ 
+ 分组已覆盖绝大多数地区：
+ 
+  ![Alt text](./ClashVerge/assets/image-show-node.png)
+
+
+ ## 使用
+  
+  复制 [ACL4SSR_Online_Full.js](https://github.com/SuNianjing/ACL4SSR/blob/master/ClashVerge/dist/ACL4SSR_Online_Full.js) 中的内容，粘贴到 Clash verge 的全局扩展脚本中。
+
+  ![Alt text](./ClashVerge/assets/image.png)
+  ![Alt text](./ClashVerge/assets/image2.png)
+  ![Alt text](./ClashVerge/assets/image3.png)
+
 # 安卓 SSR 去广告ACL规则
   * 屏蔽小米手机和魅族flyme rom系统广告
   * 国内网站均直接连接
